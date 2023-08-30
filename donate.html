@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Tanzeem-E-Waledain</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+    .bcum{
+        background: url(./images/bg.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+
+     .bcum-inner{
+        width: 50%;
+        margin: 0 auto;
+        padding: 2rem 0;
+     }
+
+     .bcum-inner h1{
+        color: aliceblue;
+        font-size: 3rem;
+        text-align: center;
+        font-weight: 700;
+     }
+
+     .bcum-inner ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        padding: 1rem 0;
+     }
+
+     .bcum-inner ul li{
+        color: aliceblue;
+        font-size: 1.2rem;
+        font-weight: 500;
+     }
+
+     .bcum-inner ul li a{
+        color: aliceblue;
+        font-size: 1.2rem;
+        font-weight: 500;
+        text-decoration: none;
+     }
+
+     .bcum-inner ul li i{
+        color: aliceblue;
+        font-size: 1.2rem;
+        font-weight: 500;
+        padding: 0 1rem;
+     }
+
+     .hero {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin: 2rem 0;
+        padding: 0 5%;
+     }
+
+     .hero .text {
+        width: 60%;
+        font-size: 1.2rem;
+        line-height: 1.5;
+        padding-right: 5%;
+        text-align: justify;
+     }
+
+     .hero .image {
+        width: 40%;
+     }
+
+     .hero .image img {
+        width: 100%;
+     }
+
+     .form{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 2rem 0;
+        padding: 2% 5%;
+        font-size: 1.2rem;
+        line-height: 1.5;
+        text-align: justify;
+        background-color:  #FF3E41;
+     }
+
+     .form p{
+        color: aliceblue;
+        font-size: 2rem;
+        font-weight: 500;
+        text-decoration: none;
+        margin: 0;
+     }
+
+     a.gform{
+        text-decoration: none;
+        background-color: aliceblue;
+        font-size: 2rem;
+        font-weight: 500;
+        text-decoration: none;
+        margin: 0;
+        padding: .5rem 2rem;
+        border-radius: 5px;
+        color: #323232;
+        
+
+    }
+
+    a.gform:hover{
+        background-color: #FF3E41;
+        color: #51CFED;
+        outline: aliceblue solid 2px;
+     }
+
+     .details {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+        margin: 2rem 0;
+        padding: 0 5%;
+
+     }
+
+     .details .lt {
+        width: 60%;
+        font-size: 1.2rem;
+        line-height: 1.5;
+        padding-right: 5%;
+        text-align: justify;
+     }
+
+
+     .details .lt h2 {
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+     
+
+     }
+
+     .details .lt p {
+        font-size: 1.2rem;
+        line-height: 1.5;
+        padding-right: 5%;
+        text-align: justify;
+     }
+
+     .details .rt {
+        width: 40%;
+        max-height: 500px;
+
+     }
+
+     .details .rt h2 {
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+     }
+
+
+     .details .rt img {
+        width: 100%;
+        max-height: 400px;
+        object-fit: contain;
+     }
+
+     @media screen and (max-width: 768px) {
+        .hero {
+           flex-direction: column;
+        }
+
+        .hero .text {
+           width: 100%;
+           padding: 0;
+        }
+
+        .hero .image {
+           width: 100%;
+        }
+
+        .form p{
+           font-size: 1.5rem;
+        }
+
+        .form a.gform{
+           font-size: 1.5rem;
+           padding: .5rem 1rem;
+        }
+
+        .details {
+           flex-direction: column;
+        }
+
+        .details .lt {
+           width: 100%;
+           padding: 0;
+        }
+
+        .details .rt {
+           width: 100%;
+        }
+     
+        
+     }
+  </style>
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0">
+      <a href="index.html" class="navbar-brand bg-primary d-flex align-items-center px-4 px-lg-5">
+          <h2 class="mb-2 text-white">Tanzeem-E-Waledain</h2>
+      </a>
+      <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ms-auto p-4 p-lg-0">
+              <a href="index.html" class="nav-item nav-link">Home</a>
+              <a href="about.html" class="nav-item nav-link">About</a>
+              <a href="gallery.html" class="nav-item nav-link ">Gallery</a>
+              <a href="contact.html" class="nav-item nav-link">Contact</a>
+          </div>
+          <h4 class="m-0 pe-lg-5 d-none d-lg-block"><i class="fa fa-headphones text-primary me-3"></i>+91 9226123161</h4>
+      </div>
+  </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header py-5" style="margin-bottom: 6rem;">
+        <div class="container py-5">
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Donate</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                    
+                    <li class="breadcrumb-item text-white active" aria-current="page">Donate</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+
+    <!-- Fact Start -->
+    <div class="hero" id="#hero">
+        <div class="text">
+           अल्हम्दुलिल्लाह, आज से 35 साल पहले, ताज़ीम माता- पिता ने शिक्षा के क्षेत्र में वर्तमान युग की विभिन्न
+           आवश्यकताओं को ध्यान में रखते हुए, भविष्य में स्वस्थ खुरों को बढ़ावा देने के लिए सकारात्मक सोच और चिंता के साथ
+           व्यावहारिक कदम उठाए थे। नतीजे भी अच्छे रहे. और अब मूल संस्था न्यू एम्बिशन उच्च शिक्षा, आधुनिक तकनीक को बढ़ावा
+           देने के लिए एक बेहतरीन नई योजना लेकर आ रही है।
+  
+           यह संस्था गरीब, पिछड़े, जरूरतमंद वर्ग के शैक्षणिक विकास के लिए सदैव प्रयत्नशील एवं संलग्न रही है। और इसकी
+           स्थापना उन्हीं वर्गों के संगठन के तहत की गई है. आज तक समाज के बुद्धिजीवियों, कुलीनों, सज्जनों तथा व्यापारियों
+           ने इस संबंध में बहुत योगदान दिया है। और यह हमें हमारे उपकारों द्वारा दिया गया है। संगठन को कई लोगों का समर्थन
+           प्राप्त था और अभी भी है। हम चाहते हैं कि समाज का प्रत्येक सदस्य हमारे उच्च लक्ष्यों को साकार करने में हमारी मदद
+           करे
+  
+           इसका समर्थन किया जाना चाहिए, यह भी एक सतत पुरस्कार है।'
+  
+           अलोना विला होता जिला, अनाथालय भवन की खरीद पूरी करता है। सतारा, वाई जिले में पांच हजार वर्ग फुट जमीन खरीदी गई
+           है। जहां विद्यालय के पालिड बैंक का निर्माण कार्य लंबित है। कोंडवा के होना जिले में एक स्कूल भवन का निर्माण,
+           पुणे में एक एकड़ भूमि पर गुणवत्तापूर्ण शिक्षा केंद्र स्थापित करना, ताकि कोंडवा के लोगों को सभी शैक्षणिक
+           सुविधाएं मिल सकें। जिसके लिए करोड़ों रुपये की पूंजी की जरूरत होती है.
+  
+           उनमें से कई, जो पिछले 35 वर्षों से प्रतियोगी परीक्षाओं और कैरियर विकास सीमाओं को पढ़ा रहे हैं, अन्य
+           बुद्धिजीवियों के समर्थन और मार्गदर्शन से, इस केंद्र में माता- पिता द्वारा आयोजित कक्षाएं शुरू करने जा रहे हैं,
+           जहां से देश के नौ छात्रों को पढ़ाया जाएगा। युवाओं को आजीविका मिलेगी. समाज के इन सभी रचनात्मक एवं लाभकारी
+           कार्यों में करोड़ों रूपये की भारी पूंजी निवेश की आवश्यकता होती है। यदि समाज का प्रत्येक सदस्य अपनी क्षमता के
+           अनुसार योगदान दे तो समाज जरूरतमंदों के लिए एक केंद्र बन जाएगा। अपनी व्यापक योजना को सफल बनाने के लिए, ज़कात,
+           सदाकत को मृतक के मुआवजे के लिए हर संभव तरीके से योगदान देना चाहिए
+        </div>
+        <div class="image">
+           <img src="./img/anees kutty.jpeg" alt="doner"><p style="text-align: center;">Anees Kutty</p>
+        </div>
+        
+     </div>
+     <div class="form">
+        <p>
+        </p>
+        <a href="https://forms.gle/FE6KubCEf6Aqto4E7" class="gform">click here</a>
+     </div>
+     <div class="details">
+        <div class="lt">
+           <h2>
+              Bank Details
+           </h2>
+           <p>
+              Name:- Tanzeem E Waledain Urdu Madaris <br>
+              Current Ac/No: 3893862023 <br>
+              IFSC code: CBIN0280660 <br>
+              Bank Name CENTRAL BANK OF INDIA <br>
+              Branch : SHANKAR SHETH ROAD PUNE <br>
+           </p>
+        </div>
+        <div class="rt" >
+           <h2 style="text-align: center;">
+              UPI QR code
+           </h2>
+           <img src="./img/qr.png" alt="qr">
+        </div>
+  
+  
+     </div>
+  
+  
+  
+  
+  
+    <!-- Feature End -->
+        
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s" style="margin-top: 6rem;">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Services</h4>
+                    <a class="btn btn-link" href="">Air Freight</a>
+                    <a class="btn btn-link" href="">Sea Freight</a>
+                    <a class="btn btn-link" href="">Road Freight</a>
+                    <a class="btn btn-link" href="">Logistic Solutions</a>
+                    <a class="btn btn-link" href="">Industry solutions</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Quick Links</h4>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Our Services</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">Support</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Newsletter</h4>
+                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
